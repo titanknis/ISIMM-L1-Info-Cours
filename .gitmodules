@@ -5,3 +5,4 @@
 [submodule "Logique Formelle/cours-Logique-Formelle"]
 	path = Logique Formelle/cours-Logique-Formelle
 	url = https://github.com/srtaoufik/cours-Logique-Formelle.git
+    branch = main
