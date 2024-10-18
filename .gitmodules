@@ -1,6 +1,7 @@
 [submodule "Cours-ASD-en-C"]
 	path = Cours-ASD-en-C
 	url = https://github.com/srtaoufik/Cours-ASD-en-C
+    branch = main
 [submodule "Logique Formelle/cours-Logique-Formelle"]
 	path = Logique Formelle/cours-Logique-Formelle
 	url = https://github.com/srtaoufik/cours-Logique-Formelle.git
