@@ -1,4 +1,3 @@
-Here’s a summary emphasizing selection techniques for indexing, slicing, and masking in NumPy:
 
 ### Indexing and Slicing
 
@@ -49,4 +48,3 @@ ma_arr = ma.masked_array(arr, mask=arr < 4)  # Masks elements less than 4
 print(ma_arr)  # Displays masked elements based on the condition
 ```
 
-This summary provides key examples for selecting, slicing, and conditionally masking elements in NumPy arrays.
