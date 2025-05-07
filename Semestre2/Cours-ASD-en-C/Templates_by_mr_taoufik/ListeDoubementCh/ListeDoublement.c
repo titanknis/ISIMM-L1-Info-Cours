@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <assert.h>
+#include <stdio.h>
 #include "ListeDoublement.h"
 
 void creer_liste (struct liste* ll) {
@@ -77,7 +78,7 @@ void supprimer_elem(struct noeud* p) {
     *p = *q1;
     p->pred = q2;
     if(p->succ)
-        p->suuc->pred=p;
+        p->succ->pred=p;
     free(q1);
 }
 
