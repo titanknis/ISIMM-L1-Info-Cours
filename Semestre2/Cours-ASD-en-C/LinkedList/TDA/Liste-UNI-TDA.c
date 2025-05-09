@@ -171,8 +171,7 @@ void supprimer_element_reference(struct cellule* p)
 /*****Fonction supprimer_apres_reference******/
 void supprimer_apres_reference(struct cellule* p)
 {
-    struct cellule* q;
-    q          = p->suivant;
+    struct cellule* q          = p->suivant;
     p->suivant = q->suivant;
     free(q);
 }
